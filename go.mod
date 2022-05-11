@@ -1,4 +1,4 @@
-module github.com/cute-angelia/bytedance-microapp
+module github.com/fanatic-studio/bytedance-microapp
 
 go 1.17
 
