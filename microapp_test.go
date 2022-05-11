@@ -1,9 +1,9 @@
 package bytedance_microapp
 
 import (
-	"github.com/cute-angelia/bytedance-microapp/microapp"
 	"github.com/cute-angelia/go-utils/syntax/ijson"
 	"github.com/cute-angelia/go-utils/utils/conf"
+	"github.com/fanatic-studio/bytedance-microapp/microapp"
 	"log"
 	"testing"
 )

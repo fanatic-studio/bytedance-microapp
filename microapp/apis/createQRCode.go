@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/cute-angelia/bytedance-microapp/microapp/utils"
-	"github.com/cute-angelia/bytedance-microapp/microapp/utils/request"
+	"github.com/fanatic-studio/bytedance-microapp/microapp/utils"
+	"github.com/fanatic-studio/bytedance-microapp/microapp/utils/request"
 	"io/ioutil"
 	"strings"
 )

@@ -1,7 +1,7 @@
 package apis
 
 import (
-	"github.com/cute-angelia/bytedance-microapp/microapp/utils"
+	"github.com/fanatic-studio/bytedance-microapp/microapp/utils"
 	"github.com/guonaihong/gout"
 )
 

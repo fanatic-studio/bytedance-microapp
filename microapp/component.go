@@ -1,6 +1,6 @@
 package microapp
 
-import "github.com/cute-angelia/bytedance-microapp/microapp/apis"
+import "github.com/fanatic-studio/bytedance-microapp/microapp/apis"
 
 type Component struct {
 	config *config
