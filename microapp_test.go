@@ -18,3 +18,10 @@ func TestGetAccessToken(t *testing.T) {
 	accessTokenInfo := microApp.GetAccessToken()
 	log.Println(ijson.Pretty(accessTokenInfo))
 }
+
+func TestCreateQRCode(t *testing.T) {
+	microApp := getApp()
+	var accessToken = "080112184675337539513443336d324b7456305848776a4b38413d3d"
+	accessTokenInfo, _ := microApp.CreateQRCode(accessToken, "douyin", "accountId:123123")
+	log.Println(ijson.Pretty(accessTokenInfo))
+}

@@ -1,8 +1,6 @@
 package microapp
 
-import (
-	"github.com/cute-angelia/bytedance-microapp/microapp/apis"
-)
+import "github.com/cute-angelia/bytedance-microapp/microapp/apis"
 
 type Component struct {
 	config *config
@@ -20,7 +18,7 @@ func (c *Component) GetAccessToken() apis.GetAccessTokenResp {
 }
 
 // CreateQRCode 创建跳转二维码
-func (c *Component) CreateQRCode(accessToken, appname, path string) []byte {
+func (c *Component) CreateQRCode(accessToken, appname, path string) (response string, err error) {
 	return apis.CreateQRCode(accessToken, appname, path)
 }
 
